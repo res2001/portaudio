@@ -43,6 +43,7 @@
  @brief DirectSound-specific PortAudio API extension header file.
 */
 
+#include <svcguid.h>
 #include "portaudio.h"
 #include "pa_win_waveformat.h"
 
