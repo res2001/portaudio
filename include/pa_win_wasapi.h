@@ -353,6 +353,24 @@ typedef struct PaWasapiStreamInfo
 PaWasapiStreamInfo;
 
 
+/** Returns Windows device ID for input stream
+
+ @param  pStream Pointer to PaStream to query.
+
+ @return non-null value pointing to static device ID
+*/
+const wchar_t *PaWasapi_GetInputDeviceID( PaStream* s );
+
+
+/** Returns Windows device ID for output stream
+
+ @param  pStream Pointer to PaStream to query.
+
+ @return non-null value pointing to static device ID
+*/
+const wchar_t *PaWasapi_GetOutputDeviceID( PaStream* s );
+
+
 /** Returns pointer to WASAPI's IAudioClient object of the stream.
 
  @param pStream      Pointer to PaStream object.
