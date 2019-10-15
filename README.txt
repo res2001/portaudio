@@ -1,3 +1,6 @@
+PortAudio fork: https://app.assembla.com/spaces/portaudio/git/source
+The portmixer branch has a patch for audacity/portmixer: https://github.com/audacity/audacity/blob/master/lib-src/portmixer/portaudio.patch
+
 README for PortAudio
 
 /*
